@@ -61,7 +61,7 @@
             * [BinaryToOctal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/BinaryToOctal.java)
             * [DecimalToAnyBase](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/DecimalToAnyBase.java)
             * [DecimalToBinary](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/DecimalToBinary.java)
-            * [DecimalToHexaDecimal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/DecimalToHexaDecimal.java)
+            * [DecimalToHexadecimal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/DecimalToHexadecimal.java)
             * [DecimalToOctal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/DecimalToOctal.java)
             * [HexaDecimalToBinary](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/HexaDecimalToBinary.java)
             * [HexaDecimalToDecimal](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/conversions/HexaDecimalToDecimal.java)
@@ -103,7 +103,7 @@
               * [BoruvkaAlgorithm](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/BoruvkaAlgorithm.java)
               * [ConnectedComponent](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/ConnectedComponent.java)
               * [Cycles](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/Cycles.java)
-              * [DIJSKSTRAS ALGORITHM](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/DIJSKSTRAS_ALGORITHM.java)
+              * [DijkstraAlgorithm](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/DijkstraAlgorithm.java)
               * [FloydWarshall](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/FloydWarshall.java)
               * [Graphs](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/Graphs.java)
               * [HamiltonianCycle](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/graphs/HamiltonianCycle.java)
@@ -155,14 +155,15 @@
             * [Node](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/Node.java)
             * queues
               * [CircularQueue](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/CircularQueue.java)
-              * [Deques](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/Deques.java)
+              * [Deque](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/Deque.java)
               * [GenericArrayListQueue](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/GenericArrayListQueue.java)
               * [LinkedQueue](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/LinkedQueue.java)
               * [PriorityQueues](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/PriorityQueues.java)
-              * [Queues](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/Queues.java)
+              * [Queue](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/Queue.java)
             * stacks
               * [NodeStack](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/stacks/NodeStack.java)
               * [ReverseStack](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/stacks/ReverseStack.java)
+              * [Stack](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/stacks/Stack.java)
               * [StackArray](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/stacks/StackArray.java)
               * [StackArrayList](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/stacks/StackArrayList.java)
               * [StackOfLinkedList](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/stacks/StackOfLinkedList.java)
@@ -613,7 +614,10 @@
             * [BinaryToDecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/BinaryToDecimalTest.java)
             * [BinaryToHexadecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/BinaryToHexadecimalTest.java)
             * [BinaryToOctalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/BinaryToOctalTest.java)
-            * [DecimalToHexaDecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/DecimalToHexaDecimalTest.java)
+            * [DecimalToAnyBaseTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/DecimalToAnyBaseTest.java)
+            * [DecimalToBinaryTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/DecimalToBinaryTest.java)
+            * [DecimalToHexadecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/DecimalToHexadecimalTest.java)
+            * [DecimalToOctalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/DecimalToOctalTest.java)
             * [HexaDecimalToBinaryTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/HexaDecimalToBinaryTest.java)
             * [HexaDecimalToDecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/HexaDecimalToDecimalTest.java)
             * [HexToOctTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/HexToOctTest.java)
@@ -623,6 +627,8 @@
             * [OctalToHexadecimalTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/OctalToHexadecimalTest.java)
             * [RomanToIntegerTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/conversions/RomanToIntegerTest.java)
           * datastructures
+            * bag
+              * [BagTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/bag/BagTest.java)
             * bloomfilter
               * [BloomFilterTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/bloomfilter/BloomFilterTest.java)
             * buffers
@@ -640,8 +646,11 @@
               * [TwoPSetTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/crdt/TwoPSetTest.java)
             * disjointsetunion
               * [DisjointSetUnionTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/disjointsetunion/DisjointSetUnionTest.java)
+            * dynamicarray
+              * [DynamicArrayTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/dynamicarray/DynamicArrayTest.java)
             * graphs
               * [BoruvkaAlgorithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/BoruvkaAlgorithmTest.java)
+              * [DijkstraAlgorithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/DijkstraAlgorithmTest.java)
               * [HamiltonianCycleTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/HamiltonianCycleTest.java)
               * [KosarajuTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/KosarajuTest.java)
               * [TarjansAlgorithmTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/graphs/TarjansAlgorithmTest.java)
@@ -664,8 +673,15 @@
               * [SinglyLinkedListTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/lists/SinglyLinkedListTest.java)
               * [SkipListTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/lists/SkipListTest.java)
             * queues
+              * [CircularQueueTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/queues/CircularQueueTest.java)
+              * [DequeTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/queues/DequeTest.java)
+              * [GenericArrayListQueueTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/queues/GenericArrayListQueueTest.java)
               * [LinkedQueueTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/queues/LinkedQueueTest.java)
               * [PriorityQueuesTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/queues/PriorityQueuesTest.java)
+              * [QueueTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/queues/QueueTest.java)
+            * stacks
+              * [StackArrayListTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/stacks/StackArrayListTest.java)
+              * [StackArrayTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/stacks/StackArrayTest.java)
             * trees
               * [BinaryTreeTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/trees/BinaryTreeTest.java)
               * [BSTFromSortedArrayTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/trees/BSTFromSortedArrayTest.java)
@@ -886,6 +902,7 @@
             * [OddEvenSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/OddEvenSortTest.java)
             * [PancakeSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/PancakeSortTest.java)
             * [PatienceSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/PatienceSortTest.java)
+            * [PigeonholeSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/PigeonholeSortTest.java)
             * [QuickSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/QuickSortTest.java)
             * [RadixSortTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/RadixSortTest.java)
             * [SelectionSortRecursiveTest](https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/sorts/SelectionSortRecursiveTest.java)
